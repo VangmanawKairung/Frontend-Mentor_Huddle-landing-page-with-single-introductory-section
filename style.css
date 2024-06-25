@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container * {
+  background-color: hsl(257, 40%, 49%);
+  font-family: Poppins;
+}
+.container .content .main-content h1 {
+  color: white;
+}
+.container .content .main-content p {
+  color: white;
+  font-family: "Open Sans";
+}
+.container .content .main-content button {
+  color: hsl(257, 40%, 49%);
+  outline: none;
+  background: white;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px black;
+}
+.container .footer div svg {
+  fill: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+@media (min-width: 375px) and (max-width: 1439px) {
+  * {
+    background-image: url(images/bg-mobile.svg);
+  }
+}
+@media (min-width: 1440px) {
+  * {
+    background-image: url(images/bg-desktop.svg);
+  }
+}/*# sourceMappingURL=style.css.map */

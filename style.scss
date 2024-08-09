@@ -19,6 +19,7 @@ $font-size-root: 15px;
   font-family: Poppins;
   color: white;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 body {
@@ -138,9 +139,9 @@ body {
     margin: 0 auto;
 
     .header {
-      margin-bottom: 90px;
+      margin-bottom: 80px;
       img {
-        height: 60px;
+        height: 45px;
       }
     }
 
@@ -148,18 +149,18 @@ body {
       display: flex;
       margin-bottom: 30px;
       img {
-        height: 570px;
+        height: 500px;
         margin-right: 80px;
       }
 
       .main-content {
         margin-top: 50px;
         h1 {
-          font-size: 3rem;
+          font-size: 2.5rem;
           margin-bottom: 20px;
         }
         p {
-          font-size: 1.2rem;
+          font-size: 1.06rem;
           margin-bottom: 30px;
           line-height: 2rem;
         }

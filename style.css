@@ -6,6 +6,7 @@
   font-family: Poppins;
   color: white;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 body {
@@ -104,28 +105,28 @@ body .container .footer div:hover {
     margin: 0 auto;
   }
   .container .header {
-    margin-bottom: 90px;
+    margin-bottom: 80px;
   }
   .container .header img {
-    height: 60px;
+    height: 45px;
   }
   .container .content {
     display: flex;
     margin-bottom: 30px;
   }
   .container .content img {
-    height: 570px;
+    height: 500px;
     margin-right: 80px;
   }
   .container .content .main-content {
     margin-top: 50px;
   }
   .container .content .main-content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
   }
   .container .content .main-content p {
-    font-size: 1.2rem;
+    font-size: 1.06rem;
     margin-bottom: 30px;
     line-height: 2rem;
   }

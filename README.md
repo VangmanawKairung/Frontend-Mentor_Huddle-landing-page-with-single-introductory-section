@@ -26,7 +26,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Single price grid component by HTML and CSS (Sass)](https://www.frontendmentor.io/solutions/single-price-grid-component-by-html-and-css-sass-lko1qj6JDz)
+- Solution URL: [Huddle landing page with single introductory section with Sass](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-with-sass-hf3ivg5eYs)
 - Live Site URL: [Huddle landing page with single introductory section](https://vangmanawkairung.github.io/Frontend-Mentor__huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process

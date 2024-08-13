@@ -8,6 +8,7 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -23,11 +24,28 @@ This is a solution to the [Huddle landing page with single introductory section 
 - Responsive website
 - svg file handling
 - Icon elements
+- 
+### Screenshot
+
+<details>
+<summary><strong>Mobile View</strong></summary>
+<img src="source/result/mobile.png">
+</details>
+<details>
+<summary><strong>Desktop View</strong></summary>
+<img src="source/result/desktop.png">
+</details>
+<details>
+<summary><strong>Active State</strong></summary>
+<img src="source/result/active state-1.png">
+<img src="source/result/active state-2.png">
+</details>
+
 
 ### Links
 
 - Solution URL: [Huddle landing page with single introductory section with Sass](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-with-sass-hf3ivg5eYs)
-- Live Site URL: [Huddle landing page with single introductory section](https://vangmanawkairung.github.io/Frontend-Mentor__huddle-landing-page-with-single-introductory-section-master/)
+- Live Site URL: [Frontend Mentor | Huddle landing page with single introductory section](hhttps://vangmanawkairung.github.io/Frontend-Mentor_Huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 

@@ -24,7 +24,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 - Responsive website
 - svg file handling
 - Icon elements
-- 
+  
 ### Screenshot
 
 <details>

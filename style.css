@@ -55,7 +55,7 @@ body .container .footer div:hover {
     height: 100%;
     padding: 35px 40px 40px 40px;
     margin: 0 auto;
-    background-image: url("images/bg-mobile.svg");
+    background-image: url("source/images/bg-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -99,7 +99,7 @@ body .container .footer div:hover {
     width: 1440px;
     height: 800px;
     padding: 60px 80px 40px 80px;
-    background-image: url(images/bg-desktop.svg);
+    background-image: url(source/images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;

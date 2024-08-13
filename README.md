@@ -45,7 +45,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 ### Links
 
 - Solution URL: [Huddle landing page with single introductory section with Sass](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-with-sass-hf3ivg5eYs)
-- Live Site URL: [Frontend Mentor | Huddle landing page with single introductory section](hhttps://vangmanawkairung.github.io/Frontend-Mentor_Huddle-landing-page-with-single-introductory-section-master/)
+- Live Site URL: [Frontend Mentor | Huddle landing page with single introductory section](https://vangmanawkairung.github.io/Frontend-Mentor_Huddle-landing-page-with-single-introductory-section/))
 
 ## My process
 

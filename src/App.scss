@@ -1,0 +1,145 @@
+main {
+  width: 295px;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 38px 0;
+
+  .logo {
+    width: fit-content;
+    height: 25px;
+    margin-bottom: 65px;
+  }
+
+  .page-info {
+    text-align: center;
+
+    img {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.98rem;
+    }
+
+    button {
+      width: 200px;
+      height: 40px;
+      margin-top: 25px;
+      margin-bottom: 60px;
+      border-radius: 40px;
+      font-size: 0.75rem;
+      box-shadow: 0 10px 10px 0 rgba($color: black, $alpha: 0.2);
+    }
+  }
+
+  .contact-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .contacts {
+      width: 105px;
+      display: flex;
+      justify-content: space-between;
+
+      .contact {
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        padding: 7px;
+        border-radius: 50%;
+      }
+
+      .contact:active,
+      .contact:hover {
+        color: hsl(300, 69%, 71%);
+        border: 1px solid hsl(300, 69%, 71%);
+      }
+    }
+  }
+}
+
+@media (min-width: 1241px) {
+  main {
+    width: 1290px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .logo {
+      width: fit-content;
+      height: 53px;
+      margin-bottom: 0px;
+    }
+
+    .page-info {
+      text-align: left;
+      display: flex;
+      align-items: start;
+      margin-top: 80px;
+
+      img {
+        width: 965px;
+        margin-bottom: 0px;
+        margin-right: 55px;
+      }
+
+      .info {
+        margin-top: 45px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.15rem;
+        line-height: 1.7rem;
+      }
+
+      button {
+        height: 55px;
+        margin-bottom: 0px;
+        border-radius: 40px;
+        font-size: 1.1rem;
+      }
+    }
+
+    .contact-center {
+      justify-content: right;
+
+      .contacts {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+
+        .contact {
+          width: 40px;
+          height: 40px;
+          border: 2px solid white;
+        }
+
+        .contact:active,
+        .contact:hover {
+          border: 2px solid hsl(300, 69%, 71%);
+        }
+      }
+    }
+  }
+}

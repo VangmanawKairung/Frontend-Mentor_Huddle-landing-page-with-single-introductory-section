@@ -1,13 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  background-image: url(./assets/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+button {
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  outline: none;
+  border: none;
+  font-weight: 400;
+}
+
+button:active,
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (min-width: 1241px) {
+  body {
+    background-image: url(./assets/bg-desktop.svg);
+    background-position: left;
+    background-size: contain;
+  }
 }

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import huddleLogo from "../src/assets/logo.svg";
+import pageMockup from "../src/assets/illustration-mockups.svg";
+import Info from "./components/Info";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="container">
+      <img src={huddleLogo} alt="Huddle logo" className="logo" />
+      <div className="page-info">
+        <img src={pageMockup} alt="Page mockup on desktop and mobile" />
+        <Info />
+      </div>
+      <div className="contact-center">
+        <Contact />
+      </div>
+    </main>
   );
 }
 

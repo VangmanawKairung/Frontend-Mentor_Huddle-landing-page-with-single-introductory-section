@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle landing page with single introductory section with Sass](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-with-sass-hf3ivg5eYs)
+- Solution URL: [Huddle landing page with single introductory section with React](https://www.frontendmentor.io/solutions/huddle-landing-page-with-single-introductory-section-with-react-RciOkzvg8L)
 - Live Site URL: [Frontend Mentor | Huddle landing page with single introductory section](https://vangmanawkairung.github.io/Frontend-Mentor_Huddle-landing-page-with-single-introductory-section/)
 
 ## My process
